@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2B0D5C01A011F680007EE3A /* XYZAddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B0D5BF1A011F680007EE3A /* XYZAddToDoItemViewController.m */; };
+		C2B0D5C31A0120C10007EE3A /* XYZToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B0D5C21A0120C10007EE3A /* XYZToDoListTableViewController.m */; };
 		C2DAE7541930EA50002AC8BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DAE7531930EA50002AC8BB /* UIKit.framework */; };
 		C2DAE7561930EA50002AC8BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DAE7551930EA50002AC8BB /* Foundation.framework */; };
 		C2DAE7581930EA50002AC8BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DAE7571930EA50002AC8BB /* CoreGraphics.framework */; };
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C2B0D5BE1A011F680007EE3A /* XYZAddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZAddToDoItemViewController.h; sourceTree = "<group>"; };
+		C2B0D5BF1A011F680007EE3A /* XYZAddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZAddToDoItemViewController.m; sourceTree = "<group>"; };
+		C2B0D5C11A0120C10007EE3A /* XYZToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZToDoListTableViewController.h; sourceTree = "<group>"; };
+		C2B0D5C21A0120C10007EE3A /* XYZToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZToDoListTableViewController.m; sourceTree = "<group>"; };
 		C2DAE7501930EA50002AC8BB /* xcodestudy01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xcodestudy01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2DAE7531930EA50002AC8BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C2DAE7551930EA50002AC8BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -120,12 +126,17 @@
 				C2DAE7621930EA50002AC8BB /* XYZAppDelegate.h */,
 				C2DAE7631930EA50002AC8BB /* XYZAppDelegate.m */,
 				C2DAE76B1930EA50002AC8BB /* MainStoryboard.storyboard */,
+				C2B0D5C11A0120C10007EE3A /* XYZToDoListTableViewController.h */,
+				C2B0D5C21A0120C10007EE3A /* XYZToDoListTableViewController.m */,
+				C2B0D5BE1A011F680007EE3A /* XYZAddToDoItemViewController.h */,
+				C2B0D5BF1A011F680007EE3A /* XYZAddToDoItemViewController.m */,
 				C2DAE76E1930EA50002AC8BB /* XYZViewController.h */,
 				C2DAE76F1930EA50002AC8BB /* XYZViewController.m */,
 				C2DAE75A1930EA50002AC8BB /* Supporting Files */,
 			);
 			path = xcodestudy01;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		C2DAE75A1930EA50002AC8BB /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -274,6 +285,8 @@
 				C2DAE7601930EA50002AC8BB /* main.m in Sources */,
 				C2DAE7641930EA50002AC8BB /* XYZAppDelegate.m in Sources */,
 				C2DAE7701930EA50002AC8BB /* XYZViewController.m in Sources */,
+				C2B0D5C01A011F680007EE3A /* XYZAddToDoItemViewController.m in Sources */,
+				C2B0D5C31A0120C10007EE3A /* XYZToDoListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +467,7 @@
 				C2DAE78A1930EA50002AC8BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2DAE78B1930EA50002AC8BB /* Build configuration list for PBXNativeTarget "xcodestudy01Tests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +476,7 @@
 				C2DAE78D1930EA50002AC8BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
